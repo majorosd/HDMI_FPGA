@@ -1,4 +1,4 @@
-#FPGA HDMI Example for SEA FPGA board
+# FPGA HDMI Example for SEA FPGA board
 
 As a school project I deceided to use the Spartan Edge Accelerator Board to learn about FPGAs. I liked the hardwer because it gives so many opportunities for beginners, 
 and the idea behind FPGAs to configure hardware on field was exciting.
@@ -9,7 +9,7 @@ This is how I found the [fpga4fun.com](https://www.fpga4fun.com/) website and [D
 
 I'm not a lawyer, I never had any licensed work. I'm even a newbie on Github but I wanted to share my xdc file with everyone who use SEA board. That's why i have forked Dominc's repo. All rights reserved to him.
 
-##What is SEA FPGA Board?
+## What is SEA FPGA Board?
 
 SEA is the Spartan Edge Accelerator Board made by [SeeedStudio](https://www.seeedstudio.com/)
 
@@ -31,7 +31,7 @@ Last but not least here is a table about which FPGA pins are assigned to the min
 | F4                  | HDMI_TCK-      | TMDSn_clock	       |
 | H4	              | CLK_100MHZ     | clk		       |
 
-##How to use?
+## How to use?
 Create a Vivado project. Add the HDMI_test.v and TMDS_encoder.v files to your Design sources. 
 Same with the constraints.xdc file. 
 
