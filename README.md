@@ -13,7 +13,7 @@ I'm not a lawyer, I never had any licensed work. I'm even a newbie on Github but
 
 SEA is the Spartan Edge Accelerator Board made by [SeeedStudio](https://www.seeedstudio.com/)
 
-They have a nice [wiki page](https://wiki.seeedstudio.com/Spartan-Edge-Accelerator-Board/) about the hardware with some minor deficiency if you want to learn more about it. This repo is for those who has SEA Board and want an example written in Verilog to use the HDMI interface.
+They have a nice [wiki page](https://wiki.seeedstudio.com/Spartan-Edge-Accelerator-Board/) about the hardware with some minor deficiency, check it if you want to learn more about SEA Board. This repo is for those who has SEA Board and want an example written in Verilog to use the HDMI interface.
 
 I didn't change anything in the original code only added the constraints to be able to generate bitstream in Vivado.
 
@@ -35,5 +35,5 @@ Last but not least here is a table about which FPGA pins are assigned to the min
 Create a Vivado project. Add the HDMI_test.v and TMDS_encoder.v files to your Design sources. 
 Same with the constraints.xdc file. 
 
-After adding the required files, simply run synthesis and implementation. After finis start generate bitstream. 
+After adding the required files, simply run synthesis and implementation. After finish start generate bitstream. 
 Upload configuration to FPGA by following the guide at the wiki page.
